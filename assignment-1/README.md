@@ -17,4 +17,5 @@
 (N - the dimensions of the matrices)
 
 Related Lab - https://inst.eecs.berkeley.edu/~cs61c/sp22/labs/lab07
+
 Related Article - https://vaibhaw-vipul.medium.com/matrix-multiplication-optimizing-the-code-from-6-hours-to-1-sec-70889d33dcfa
