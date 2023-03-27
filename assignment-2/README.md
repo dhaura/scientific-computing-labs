@@ -1,4 +1,4 @@
-# Assigment 1
+# Assigment 2
 
 #### Complie Code for Pthreads Matrix Multiplaication (Floats)
 ```gcc -Wall -O3 -o matMulPthreadsFloat matrixMultiplicationPthreadsFloat.c```
