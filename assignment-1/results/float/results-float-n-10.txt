@@ -1,0 +1,107 @@
+FLOAT Matrix Multiplication for N = 10, No. of iterations = 10
+
+Order (FLOAT): ijk, n = 10
+
+Iteration: 1:	 time = 0.000000 s
+Iteration: 2:	 time = 0.000000 s
+Iteration: 3:	 time = 0.000000 s
+Iteration: 4:	 time = 0.000000 s
+Iteration: 5:	 time = 0.000000 s
+Iteration: 6:	 time = 0.000000 s
+Iteration: 7:	 time = 0.000000 s
+Iteration: 8:	 time = 0.000000 s
+Iteration: 9:	 time = 0.000000 s
+Iteration: 10:	 time = 0.000000 s
+
+ijk (FLOAT):	n = 10, avg time = 0.000000 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+Order (FLOAT): ikj, n = 10
+
+Iteration: 1:	 time = 0.000000 s
+Iteration: 2:	 time = 0.000000 s
+Iteration: 3:	 time = 0.000000 s
+Iteration: 4:	 time = 0.000000 s
+Iteration: 5:	 time = 0.000000 s
+Iteration: 6:	 time = 0.000000 s
+Iteration: 7:	 time = 0.000000 s
+Iteration: 8:	 time = 0.000000 s
+Iteration: 9:	 time = 0.000000 s
+Iteration: 10:	 time = 0.000000 s
+
+ikj (FLOAT):	n = 10, avg time = 0.000000 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+Order (FLOAT): jik, n = 10
+
+Iteration: 1:	 time = 0.000000 s
+Iteration: 2:	 time = 0.000000 s
+Iteration: 3:	 time = 0.000000 s
+Iteration: 4:	 time = 0.000000 s
+Iteration: 5:	 time = 0.000000 s
+Iteration: 6:	 time = 0.000000 s
+Iteration: 7:	 time = 0.000000 s
+Iteration: 8:	 time = 0.000000 s
+Iteration: 9:	 time = 0.000000 s
+Iteration: 10:	 time = 0.000000 s
+
+jik (FLOAT):	n = 10, avg time = 0.000000 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+Order (FLOAT): jki, n = 10
+
+Iteration: 1:	 time = 0.000000 s
+Iteration: 2:	 time = 0.000000 s
+Iteration: 3:	 time = 0.000000 s
+Iteration: 4:	 time = 0.000000 s
+Iteration: 5:	 time = 0.000000 s
+Iteration: 6:	 time = 0.000000 s
+Iteration: 7:	 time = 0.000000 s
+Iteration: 8:	 time = 0.000000 s
+Iteration: 9:	 time = 0.000000 s
+Iteration: 10:	 time = 0.000000 s
+
+jki (FLOAT):	n = 10, avg time = 0.000000 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+Order (FLOAT): kij, n = 10
+
+Iteration: 1:	 time = 0.000000 s
+Iteration: 2:	 time = 0.000000 s
+Iteration: 3:	 time = 0.000000 s
+Iteration: 4:	 time = 0.000000 s
+Iteration: 5:	 time = 0.000000 s
+Iteration: 6:	 time = 0.000000 s
+Iteration: 7:	 time = 0.000000 s
+Iteration: 8:	 time = 0.000000 s
+Iteration: 9:	 time = 0.000000 s
+Iteration: 10:	 time = 0.000000 s
+
+kij (FLOAT):	n = 10, avg time = 0.000000 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+Order (FLOAT): kji, n = 10
+
+Iteration: 1:	 time = 0.000000 s
+Iteration: 2:	 time = 0.000000 s
+Iteration: 3:	 time = 0.000000 s
+Iteration: 4:	 time = 0.000000 s
+Iteration: 5:	 time = 0.000000 s
+Iteration: 6:	 time = 0.000000 s
+Iteration: 7:	 time = 0.000000 s
+Iteration: 8:	 time = 0.000000 s
+Iteration: 9:	 time = 0.000000 s
+Iteration: 10:	 time = 0.000000 s
+
+kji (FLOAT):	n = 10, avg time = 0.000000 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+

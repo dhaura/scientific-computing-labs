@@ -106,10 +106,12 @@ int main( int argc, char **argv ) {
     for( i = 0; i < N*N; i++ ) B[i] = rand();
     for( i = 0; i < N*N; i++ ) C[i] = rand();
 
+    printf("INTEGER Matrix Multiplication for N = %d, No. of iterations = %d\n\n", N, m);
+
     // Loop through each of the matrix multiplication orderings
     for( i = 0; i < 6; i++) {
         int j = 0;
-        printf("Order: %s, n = %d\n\n", orders[i], N);
+        printf("Order (INTEGER): %s, n = %d\n\n", orders[i], N);
 
         for( j = 0; j < m; j++) {
             gettimeofday( &start, NULL );  // Record start time
@@ -124,9 +126,11 @@ int main( int argc, char **argv ) {
         double avg_time = cal_mean(time_records, m);  // Calculate average time taken
         double variance_time = cal_variance(time_records, m);  // Calculate the variance
 
-        printf("\n%s:\tn = %d, avg time = %f s, variance = %f s\n\n", orders[i], N, avg_time, variance_time);
+        printf("\n%s (INT):\tn = %d, avg time = %f s, variance = %f s\n\n", orders[i], N, avg_time, variance_time);
         printf("---------------------------------------------------------\n\n");
     }
+
+    printf("---------------------------------------------------------\n\n");
 
     free( time_records );
     free( A );
