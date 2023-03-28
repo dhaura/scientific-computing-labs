@@ -105,3 +105,110 @@ kji (FLOAT):	n = 100, avg time = 0.002600 s, variance = 0.000000 s
 ---------------------------------------------------------
 
 
+FLOAT Matrix Multiplication for N = 100, No. of iterations = 10
+
+Order (FLOAT): ijk, n = 100
+
+Iteration: 1:	 time = 0.002998 s
+Iteration: 2:	 time = 0.003000 s
+Iteration: 3:	 time = 0.002000 s
+Iteration: 4:	 time = 0.003000 s
+Iteration: 5:	 time = 0.003000 s
+Iteration: 6:	 time = 0.003000 s
+Iteration: 7:	 time = 0.003007 s
+Iteration: 8:	 time = 0.001993 s
+Iteration: 9:	 time = 0.003000 s
+Iteration: 10:	 time = 0.003000 s
+
+ijk (FLOAT):	n = 100, avg time = 0.002800 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+Order (FLOAT): ikj, n = 100
+
+Iteration: 1:	 time = 0.003000 s
+Iteration: 2:	 time = 0.003000 s
+Iteration: 3:	 time = 0.003000 s
+Iteration: 4:	 time = 0.003000 s
+Iteration: 5:	 time = 0.003000 s
+Iteration: 6:	 time = 0.003001 s
+Iteration: 7:	 time = 0.003000 s
+Iteration: 8:	 time = 0.002999 s
+Iteration: 9:	 time = 0.003000 s
+Iteration: 10:	 time = 0.003000 s
+
+ikj (FLOAT):	n = 100, avg time = 0.003000 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+Order (FLOAT): jik, n = 100
+
+Iteration: 1:	 time = 0.003000 s
+Iteration: 2:	 time = 0.003001 s
+Iteration: 3:	 time = 0.002999 s
+Iteration: 4:	 time = 0.003077 s
+Iteration: 5:	 time = 0.001996 s
+Iteration: 6:	 time = 0.003002 s
+Iteration: 7:	 time = 0.003005 s
+Iteration: 8:	 time = 0.002984 s
+Iteration: 9:	 time = 0.002953 s
+Iteration: 10:	 time = 0.002993 s
+
+jik (FLOAT):	n = 100, avg time = 0.002901 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+Order (FLOAT): jki, n = 100
+
+Iteration: 1:	 time = 0.003000 s
+Iteration: 2:	 time = 0.002992 s
+Iteration: 3:	 time = 0.001999 s
+Iteration: 4:	 time = 0.003010 s
+Iteration: 5:	 time = 0.003005 s
+Iteration: 6:	 time = 0.002994 s
+Iteration: 7:	 time = 0.003000 s
+Iteration: 8:	 time = 0.001999 s
+Iteration: 9:	 time = 0.003002 s
+Iteration: 10:	 time = 0.002999 s
+
+jki (FLOAT):	n = 100, avg time = 0.002800 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+Order (FLOAT): kij, n = 100
+
+Iteration: 1:	 time = 0.003000 s
+Iteration: 2:	 time = 0.002000 s
+Iteration: 3:	 time = 0.002999 s
+Iteration: 4:	 time = 0.002994 s
+Iteration: 5:	 time = 0.002007 s
+Iteration: 6:	 time = 0.002992 s
+Iteration: 7:	 time = 0.003008 s
+Iteration: 8:	 time = 0.003000 s
+Iteration: 9:	 time = 0.002999 s
+Iteration: 10:	 time = 0.002001 s
+
+kij (FLOAT):	n = 100, avg time = 0.002700 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+Order (FLOAT): kji, n = 100
+
+Iteration: 1:	 time = 0.002995 s
+Iteration: 2:	 time = 0.003006 s
+Iteration: 3:	 time = 0.002998 s
+Iteration: 4:	 time = 0.002001 s
+Iteration: 5:	 time = 0.002999 s
+Iteration: 6:	 time = 0.003000 s
+Iteration: 7:	 time = 0.002005 s
+Iteration: 8:	 time = 0.002995 s
+Iteration: 9:	 time = 0.003001 s
+Iteration: 10:	 time = 0.002999 s
+
+kji (FLOAT):	n = 100, avg time = 0.002800 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+

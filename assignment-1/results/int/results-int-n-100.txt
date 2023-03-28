@@ -105,3 +105,110 @@ kji (INT):	n = 100, avg time = 0.002600 s, variance = 0.000000 s
 ---------------------------------------------------------
 
 
+INTEGER Matrix Multiplication for N = 100, No. of iterations = 10
+
+Order (INTEGER): ijk, n = 100
+
+Iteration: 1:	 time = 0.002999 s
+Iteration: 2:	 time = 0.002007 s
+Iteration: 3:	 time = 0.003000 s
+Iteration: 4:	 time = 0.003000 s
+Iteration: 5:	 time = 0.002001 s
+Iteration: 6:	 time = 0.003001 s
+Iteration: 7:	 time = 0.002992 s
+Iteration: 8:	 time = 0.003006 s
+Iteration: 9:	 time = 0.002000 s
+Iteration: 10:	 time = 0.003000 s
+
+ijk (INT):	n = 100, avg time = 0.002701 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+Order (INTEGER): ikj, n = 100
+
+Iteration: 1:	 time = 0.003000 s
+Iteration: 2:	 time = 0.002003 s
+Iteration: 3:	 time = 0.002990 s
+Iteration: 4:	 time = 0.003007 s
+Iteration: 5:	 time = 0.002000 s
+Iteration: 6:	 time = 0.003000 s
+Iteration: 7:	 time = 0.003000 s
+Iteration: 8:	 time = 0.002001 s
+Iteration: 9:	 time = 0.003000 s
+Iteration: 10:	 time = 0.003004 s
+
+ikj (INT):	n = 100, avg time = 0.002700 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+Order (INTEGER): jik, n = 100
+
+Iteration: 1:	 time = 0.001996 s
+Iteration: 2:	 time = 0.002999 s
+Iteration: 3:	 time = 0.002993 s
+Iteration: 4:	 time = 0.002008 s
+Iteration: 5:	 time = 0.003009 s
+Iteration: 6:	 time = 0.002991 s
+Iteration: 7:	 time = 0.002000 s
+Iteration: 8:	 time = 0.002999 s
+Iteration: 9:	 time = 0.003002 s
+Iteration: 10:	 time = 0.001999 s
+
+jik (INT):	n = 100, avg time = 0.002600 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+Order (INTEGER): jki, n = 100
+
+Iteration: 1:	 time = 0.002992 s
+Iteration: 2:	 time = 0.003008 s
+Iteration: 3:	 time = 0.002000 s
+Iteration: 4:	 time = 0.002999 s
+Iteration: 5:	 time = 0.003001 s
+Iteration: 6:	 time = 0.001999 s
+Iteration: 7:	 time = 0.003000 s
+Iteration: 8:	 time = 0.002997 s
+Iteration: 9:	 time = 0.002003 s
+Iteration: 10:	 time = 0.003000 s
+
+jki (INT):	n = 100, avg time = 0.002700 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+Order (INTEGER): kij, n = 100
+
+Iteration: 1:	 time = 0.002991 s
+Iteration: 2:	 time = 0.002000 s
+Iteration: 3:	 time = 0.003000 s
+Iteration: 4:	 time = 0.003002 s
+Iteration: 5:	 time = 0.001998 s
+Iteration: 6:	 time = 0.003000 s
+Iteration: 7:	 time = 0.003000 s
+Iteration: 8:	 time = 0.003000 s
+Iteration: 9:	 time = 0.002000 s
+Iteration: 10:	 time = 0.003000 s
+
+kij (INT):	n = 100, avg time = 0.002699 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+Order (INTEGER): kji, n = 100
+
+Iteration: 1:	 time = 0.003000 s
+Iteration: 2:	 time = 0.002000 s
+Iteration: 3:	 time = 0.003000 s
+Iteration: 4:	 time = 0.003000 s
+Iteration: 5:	 time = 0.002000 s
+Iteration: 6:	 time = 0.003000 s
+Iteration: 7:	 time = 0.003000 s
+Iteration: 8:	 time = 0.002000 s
+Iteration: 9:	 time = 0.003000 s
+Iteration: 10:	 time = 0.003001 s
+
+kji (INT):	n = 100, avg time = 0.002700 s, variance = 0.000000 s
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+
