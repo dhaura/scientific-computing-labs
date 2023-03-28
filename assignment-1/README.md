@@ -20,6 +20,7 @@
 
 #### Linux
 ```chmod +x script-linux.sh```
+
 ```.\script-linux.sh```
 
 
