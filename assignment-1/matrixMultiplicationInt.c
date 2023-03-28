@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #include <sys/time.h>
 #include <time.h>
 
@@ -58,38 +59,76 @@ void matMulKJI( int n, int *A, int *B, int *C ) {
                 C[i+j*n] += A[i+k*n]*B[k+j*n];
 }
 
+double cal_mean(double arr[], int n) {
+    double sum = 0.0;
+    int i;
+
+    for (i = 0; i < n; i++) {
+        sum += arr[i];
+    }
+
+    return sum / n;
+}
+
+double cal_variance(double arr[], int n) {
+    double mean = cal_mean(arr, n);
+    double variance = 0.0;
+    int i;
+
+    for (i = 0; i < n; i++) {
+        variance += pow(arr[i] - mean, 2);
+    }
+
+    return variance / n;
+}
+
 
 int main( int argc, char **argv ) {
-    int N = atoi(argv[1]);
+    int N = atoi(argv[1]);  // Size of the matrix will be N x N
     int i = 0;
+    int m = atoi(argv[2]);  // Number of iterations need to be run for each order
 
     void (*matMulFunctions[])(int,int *,int *,int *) = {&matMulIJK, &matMulIKJ, &matMulJIK, &matMulJKI, &matMulKIJ, &matMulKJI};
     char *orders[] = {"ijk","ikj","jik","jki","kij","kji"};
 
-    int *A = (int *)malloc( N*N * sizeof(int));
-    int *B = (int *)malloc( N*N * sizeof(int));
-    int *C = (int *)malloc( N*N * sizeof(int));
+    int *A = (int *)malloc(N*N * sizeof(int));
+    int *B = (int *)malloc(N*N * sizeof(int));
+    int *C = (int *)malloc(N*N * sizeof(int));
 
     struct timeval start, end;
+    double *time_records = (double *)malloc(m * sizeof(double));  // Array to store time values for multiple iterations
 
     // Seed the random number generator with the current time
     srand(time(NULL));
 
-    // Initilize matrices with random floating numbers
+    // Initilize matrices with random int numbers
     for( i = 0; i < N*N; i++ ) A[i] = rand();
     for( i = 0; i < N*N; i++ ) B[i] = rand();
     for( i = 0; i < N*N; i++ ) C[i] = rand();
 
+    // Loop through each of the matrix multiplication orderings
     for( i = 0; i < 6; i++) {
-        // Do matirx multiplication with the relevant order
-        gettimeofday( &start, NULL );
-        (*matMulFunctions[i])( N, A, B, C );
-        gettimeofday( &end, NULL );
+        int j = 0;
+        printf("Order: %s, n = %d\n\n", orders[i], N);
 
-        double seconds = (end.tv_sec - start.tv_sec) + 1.0e-6 * (end.tv_usec - start.tv_usec);
-        printf("%s:\tn = %d, time = %f s\n", orders[i], N, seconds);
+        for( j = 0; j < m; j++) {
+            gettimeofday( &start, NULL );  // Record start time
+            (*matMulFunctions[i])( N, A, B, C );  // Do matirx multiplication with the relevant order
+            gettimeofday( &end, NULL );  // Record end time
+
+            double seconds = (end.tv_sec - start.tv_sec) + 1.0e-6 * (end.tv_usec - start.tv_usec);  // Calculate the time difference
+            time_records[j] = seconds;
+            printf("Iteration: %d:\t time = %f s\n", (j+1), seconds);
+        }
+
+        double avg_time = cal_mean(time_records, m);  // Calculate average time taken
+        double variance_time = cal_variance(time_records, m);  // Calculate the variance
+
+        printf("\n%s:\tn = %d, avg time = %f s, variance = %f s\n\n", orders[i], N, avg_time, variance_time);
+        printf("---------------------------------------------------------\n\n");
     }
 
+    free( time_records );
     free( A );
     free( B );
     free( C );
