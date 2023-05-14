@@ -1,7 +1,7 @@
 # Assigment False Sharing
 
 ### Complie Code for Pthreads with Flase Sharing (Version 1)
-```gcc -Wall -O0 -o gregoryLeibnizV1  gregoryLeibnizV1.c -pthread```
+```gcc -Wall -O0 -o gregoryLeibnizV1  gregoryLeibnizV1.c```
 
 ##### Run Compiled Code
 ```.\gregoryLeibnizV1.exe iterations``` 

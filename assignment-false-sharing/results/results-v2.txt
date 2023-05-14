@@ -1,200 +1,88 @@
-Iteration: 1:	 time = 1.986490 s
-Iteration: 2:	 time = 1.978521 s
-Iteration: 3:	 time = 1.975652 s
-Iteration: 4:	 time = 1.985309 s
-Iteration: 5:	 time = 1.974532 s
-Iteration: 6:	 time = 1.978553 s
-Iteration: 7:	 time = 1.974677 s
-Iteration: 8:	 time = 1.977064 s
-Iteration: 9:	 time = 1.975414 s
-Iteration: 10:	 time = 1.978134 s
-Iteration: 11:	 time = 1.978616 s
-Iteration: 12:	 time = 1.978015 s
-Iteration: 13:	 time = 1.974974 s
-Iteration: 14:	 time = 1.976431 s
-Iteration: 15:	 time = 1.978143 s
-Iteration: 16:	 time = 1.975385 s
-Iteration: 17:	 time = 1.978010 s
-Iteration: 18:	 time = 1.973989 s
-Iteration: 19:	 time = 1.974998 s
-Iteration: 20:	 time = 1.977693 s
-
-Approximation of pi using 1000000000 number of terms and 1 number of threads: 3.141592652588050
-Average Time taken: 1.977530 seconds
----------------------------------------------------------
-
-Iteration: 1:	 time = 1.006983 s
-Iteration: 2:	 time = 1.008068 s
-Iteration: 3:	 time = 1.007934 s
-Iteration: 4:	 time = 1.005007 s
-Iteration: 5:	 time = 1.013331 s
-Iteration: 6:	 time = 0.994473 s
-Iteration: 7:	 time = 1.002023 s
-Iteration: 8:	 time = 0.998992 s
-Iteration: 9:	 time = 0.998000 s
-Iteration: 10:	 time = 1.009088 s
-Iteration: 11:	 time = 1.001896 s
-Iteration: 12:	 time = 1.000231 s
-Iteration: 13:	 time = 1.005023 s
-Iteration: 14:	 time = 0.990992 s
-Iteration: 15:	 time = 1.009999 s
-Iteration: 16:	 time = 0.996067 s
-Iteration: 17:	 time = 0.998096 s
-Iteration: 18:	 time = 1.008994 s
-Iteration: 19:	 time = 1.011418 s
-Iteration: 20:	 time = 1.000987 s
-
-Approximation of pi using 1000000000 number of terms and 2 number of threads: 3.141592652589258
-Average Time taken: 1.003380 seconds
----------------------------------------------------------
-
-Iteration: 1:	 time = 0.520886 s
-Iteration: 2:	 time = 0.513339 s
-Iteration: 3:	 time = 0.548077 s
-Iteration: 4:	 time = 0.546546 s
-Iteration: 5:	 time = 0.549658 s
-Iteration: 6:	 time = 0.518258 s
-Iteration: 7:	 time = 0.544030 s
-Iteration: 8:	 time = 0.521076 s
-Iteration: 9:	 time = 0.548995 s
-Iteration: 10:	 time = 0.510492 s
-Iteration: 11:	 time = 0.554356 s
-Iteration: 12:	 time = 0.529694 s
-Iteration: 13:	 time = 0.552009 s
-Iteration: 14:	 time = 0.533922 s
-Iteration: 15:	 time = 0.523065 s
-Iteration: 16:	 time = 0.528199 s
-Iteration: 17:	 time = 0.522596 s
-Iteration: 18:	 time = 0.515600 s
-Iteration: 19:	 time = 0.551413 s
-Iteration: 20:	 time = 0.520999 s
-
-Approximation of pi using 1000000000 number of terms and 4 number of threads: 3.141592652589210
-Average Time taken: 0.532660 seconds
----------------------------------------------------------
-
-Iteration: 1:	 time = 0.345009 s
-Iteration: 2:	 time = 0.326998 s
-Iteration: 3:	 time = 0.308992 s
-Iteration: 4:	 time = 0.310000 s
-Iteration: 5:	 time = 0.330072 s
-Iteration: 6:	 time = 0.309933 s
-Iteration: 7:	 time = 0.330003 s
-Iteration: 8:	 time = 0.324302 s
-Iteration: 9:	 time = 0.304472 s
-Iteration: 10:	 time = 0.321565 s
-Iteration: 11:	 time = 0.320018 s
-Iteration: 12:	 time = 0.317929 s
-Iteration: 13:	 time = 0.316007 s
-Iteration: 14:	 time = 0.303997 s
-Iteration: 15:	 time = 0.315855 s
-Iteration: 16:	 time = 0.317200 s
-Iteration: 17:	 time = 0.318022 s
-Iteration: 18:	 time = 0.317052 s
-Iteration: 19:	 time = 0.303809 s
-Iteration: 20:	 time = 0.311605 s
-
-Approximation of pi using 1000000000 number of terms and 8 number of threads: 3.141592652589324
-Average Time taken: 0.317642 seconds
----------------------------------------------------------
-
-Iteration: 1:	 time = 0.216010 s
-Iteration: 2:	 time = 0.217987 s
-Iteration: 3:	 time = 0.217010 s
-Iteration: 4:	 time = 0.219100 s
-Iteration: 5:	 time = 0.220032 s
-Iteration: 6:	 time = 0.233470 s
-Iteration: 7:	 time = 0.220998 s
-Iteration: 8:	 time = 0.220008 s
-Iteration: 9:	 time = 0.222066 s
-Iteration: 10:	 time = 0.226001 s
-Iteration: 11:	 time = 0.217999 s
-Iteration: 12:	 time = 0.222993 s
-Iteration: 13:	 time = 0.217720 s
-Iteration: 14:	 time = 0.222063 s
-Iteration: 15:	 time = 0.229258 s
-Iteration: 16:	 time = 0.227000 s
-Iteration: 17:	 time = 0.221001 s
-Iteration: 18:	 time = 0.220992 s
-Iteration: 19:	 time = 0.220000 s
-Iteration: 20:	 time = 0.218347 s
-
-Approximation of pi using 1000000000 number of terms and 16 number of threads: 3.141592652590205
-Average Time taken: 0.221503 seconds
----------------------------------------------------------
-
-Iteration: 1:	 time = 0.228766 s
-Iteration: 2:	 time = 0.224636 s
-Iteration: 3:	 time = 0.231479 s
-Iteration: 4:	 time = 0.224479 s
-Iteration: 5:	 time = 0.230119 s
-Iteration: 6:	 time = 0.225600 s
-Iteration: 7:	 time = 0.226503 s
-Iteration: 8:	 time = 0.224500 s
-Iteration: 9:	 time = 0.219799 s
-Iteration: 10:	 time = 0.225064 s
-Iteration: 11:	 time = 0.224882 s
-Iteration: 12:	 time = 0.227496 s
-Iteration: 13:	 time = 0.225949 s
-Iteration: 14:	 time = 0.235947 s
-Iteration: 15:	 time = 0.229724 s
-Iteration: 16:	 time = 0.237835 s
-Iteration: 17:	 time = 0.221875 s
-Iteration: 18:	 time = 0.229681 s
-Iteration: 19:	 time = 0.228108 s
-Iteration: 20:	 time = 0.228772 s
-
-Approximation of pi using 1000000000 number of terms and 32 number of threads: 3.141592652590108
-Average Time taken: 0.227561 seconds
----------------------------------------------------------
-
-Iteration: 1:	 time = 0.235369 s
-Iteration: 2:	 time = 0.223000 s
-Iteration: 3:	 time = 0.226000 s
-Iteration: 4:	 time = 0.218001 s
-Iteration: 5:	 time = 0.226013 s
-Iteration: 6:	 time = 0.224998 s
-Iteration: 7:	 time = 0.225531 s
-Iteration: 8:	 time = 0.231000 s
-Iteration: 9:	 time = 0.221009 s
-Iteration: 10:	 time = 0.223000 s
-Iteration: 11:	 time = 0.229309 s
-Iteration: 12:	 time = 0.223010 s
-Iteration: 13:	 time = 0.233045 s
-Iteration: 14:	 time = 0.226255 s
-Iteration: 15:	 time = 0.219992 s
-Iteration: 16:	 time = 0.229008 s
-Iteration: 17:	 time = 0.224056 s
-Iteration: 18:	 time = 0.223004 s
-Iteration: 19:	 time = 0.222996 s
-Iteration: 20:	 time = 0.216002 s
-
-Approximation of pi using 1000000000 number of terms and 64 number of threads: 3.141592652589865
-Average Time taken: 0.225030 seconds
----------------------------------------------------------
-
-Iteration: 1:	 time = 0.225292 s
-Iteration: 2:	 time = 0.224006 s
-Iteration: 3:	 time = 0.230353 s
-Iteration: 4:	 time = 0.229492 s
-Iteration: 5:	 time = 0.238293 s
-Iteration: 6:	 time = 0.248578 s
-Iteration: 7:	 time = 0.228391 s
-Iteration: 8:	 time = 0.226998 s
-Iteration: 9:	 time = 0.227005 s
-Iteration: 10:	 time = 0.224760 s
-Iteration: 11:	 time = 0.226000 s
-Iteration: 12:	 time = 0.230000 s
-Iteration: 13:	 time = 0.230297 s
-Iteration: 14:	 time = 0.225992 s
-Iteration: 15:	 time = 0.225008 s
-Iteration: 16:	 time = 0.226905 s
-Iteration: 17:	 time = 0.220279 s
-Iteration: 18:	 time = 0.229999 s
-Iteration: 19:	 time = 0.231423 s
-Iteration: 20:	 time = 0.228000 s
-
-Approximation of pi using 1000000000 number of terms and 128 number of threads: 3.141592652589726
-Average Time taken: 0.228854 seconds
----------------------------------------------------------
-
+Iteration 1: Pi = 3.141592652588050, Time = 2.721000
+Iteration 2: Pi = 3.141592652588050, Time = 2.672000
+Iteration 3: Pi = 3.141592652588050, Time = 2.674000
+Iteration 4: Pi = 3.141592652588050, Time = 2.673000
+Iteration 5: Pi = 3.141592652588050, Time = 2.680000
+Iteration 6: Pi = 3.141592652588050, Time = 2.660000
+Iteration 7: Pi = 3.141592652588050, Time = 2.676000
+Iteration 8: Pi = 3.141592652588050, Time = 2.672000
+Iteration 9: Pi = 3.141592652588050, Time = 2.667000
+Iteration 10: Pi = 3.141592652588050, Time = 2.671000
+1 threads: Average time elapsed for 10 iterations: 2.676600 seconds
+Iteration 1: Pi = 3.141592652585555, Time = 2.982000
+Iteration 2: Pi = 3.141592652585555, Time = 2.623000
+Iteration 3: Pi = 3.141592652585555, Time = 2.573000
+Iteration 4: Pi = 3.141592652585555, Time = 2.755000
+Iteration 5: Pi = 3.141592652585555, Time = 2.788000
+Iteration 6: Pi = 3.141592652585555, Time = 2.857000
+Iteration 7: Pi = 3.141592652585555, Time = 2.825000
+Iteration 8: Pi = 3.141592652585555, Time = 2.823000
+Iteration 9: Pi = 3.141592652585555, Time = 2.827000
+Iteration 10: Pi = 3.141592652585555, Time = 2.859000
+2 threads: Average time elapsed for 10 iterations: 2.791200 seconds
+Iteration 1: Pi = 3.141592652591443, Time = 3.075000
+Iteration 2: Pi = 3.141592652591443, Time = 3.006000
+Iteration 3: Pi = 3.141592652591443, Time = 3.150000
+Iteration 4: Pi = 3.141592652591443, Time = 3.042000
+Iteration 5: Pi = 3.141592652591443, Time = 3.046000
+Iteration 6: Pi = 3.141592652591443, Time = 3.001000
+Iteration 7: Pi = 3.141592652591443, Time = 3.101000
+Iteration 8: Pi = 3.141592652591443, Time = 2.980000
+Iteration 9: Pi = 3.141592652591443, Time = 3.077000
+Iteration 10: Pi = 3.141592652591443, Time = 2.984000
+4 threads: Average time elapsed for 10 iterations: 3.046200 seconds
+Iteration 1: Pi = 3.141592652593080, Time = 2.294000
+Iteration 2: Pi = 3.141592652593080, Time = 2.327000
+Iteration 3: Pi = 3.141592652593080, Time = 2.290000
+Iteration 4: Pi = 3.141592652593080, Time = 2.263000
+Iteration 5: Pi = 3.141592652593080, Time = 2.290000
+Iteration 6: Pi = 3.141592652593080, Time = 2.249000
+Iteration 7: Pi = 3.141592652593080, Time = 2.289000
+Iteration 8: Pi = 3.141592652593080, Time = 2.274000
+Iteration 9: Pi = 3.141592652593080, Time = 2.264000
+Iteration 10: Pi = 3.141592652593080, Time = 2.279000
+8 threads: Average time elapsed for 10 iterations: 2.281900 seconds
+Iteration 1: Pi = 3.141592652586497, Time = 2.390000
+Iteration 2: Pi = 3.141592652586497, Time = 2.359000
+Iteration 3: Pi = 3.141592652586497, Time = 2.368000
+Iteration 4: Pi = 3.141592652586497, Time = 2.372000
+Iteration 5: Pi = 3.141592652586497, Time = 2.374000
+Iteration 6: Pi = 3.141592652586497, Time = 2.379000
+Iteration 7: Pi = 3.141592652586497, Time = 2.362000
+Iteration 8: Pi = 3.141592652586497, Time = 2.400000
+Iteration 9: Pi = 3.141592652586497, Time = 2.367000
+Iteration 10: Pi = 3.141592652586497, Time = 2.377000
+16 threads: Average time elapsed for 10 iterations: 2.374800 seconds
+Iteration 1: Pi = 3.141592652590406, Time = 1.830000
+Iteration 2: Pi = 3.141592652590406, Time = 1.871000
+Iteration 3: Pi = 3.141592652590406, Time = 1.867000
+Iteration 4: Pi = 3.141592652590406, Time = 1.764000
+Iteration 5: Pi = 3.141592652590406, Time = 1.767000
+Iteration 6: Pi = 3.141592652590406, Time = 1.770000
+Iteration 7: Pi = 3.141592652590406, Time = 1.807000
+Iteration 8: Pi = 3.141592652590406, Time = 1.779000
+Iteration 9: Pi = 3.141592652590406, Time = 1.817000
+Iteration 10: Pi = 3.141592652590406, Time = 1.788000
+32 threads: Average time elapsed for 10 iterations: 1.806000 seconds
+Iteration 1: Pi = 3.141592652589868, Time = 1.281000
+Iteration 2: Pi = 3.141592652589868, Time = 1.748000
+Iteration 3: Pi = 3.141592652589868, Time = 1.124000
+Iteration 4: Pi = 3.141592652589868, Time = 1.079000
+Iteration 5: Pi = 3.141592652589868, Time = 1.067000
+Iteration 6: Pi = 3.141592652589868, Time = 1.082000
+Iteration 7: Pi = 3.141592652589868, Time = 1.705000
+Iteration 8: Pi = 3.141592652589868, Time = 1.155000
+Iteration 9: Pi = 3.141592652589868, Time = 1.022000
+Iteration 10: Pi = 3.141592652589868, Time = 1.039000
+64 threads: Average time elapsed for 10 iterations: 1.230200 seconds
+Iteration 1: Pi = 3.141592652589197, Time = 0.970000
+Iteration 2: Pi = 3.141592652589197, Time = 0.893000
+Iteration 3: Pi = 3.141592652589197, Time = 0.863000
+Iteration 4: Pi = 3.141592652589197, Time = 0.917000
+Iteration 5: Pi = 3.141592652589197, Time = 1.757000
+Iteration 6: Pi = 3.141592652589197, Time = 1.198000
+Iteration 7: Pi = 3.141592652589197, Time = 0.896000
+Iteration 8: Pi = 3.141592652589197, Time = 1.245000
+Iteration 9: Pi = 3.141592652589197, Time = 0.887000
+Iteration 10: Pi = 3.141592652589197, Time = 0.975000
+128 threads: Average time elapsed for 10 iterations: 1.060100 seconds

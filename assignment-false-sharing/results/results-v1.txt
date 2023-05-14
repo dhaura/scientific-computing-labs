@@ -1,25 +1,21 @@
-Iteration: 1:	 time = 1.995148 s
-Iteration: 2:	 time = 1.976993 s
-Iteration: 3:	 time = 1.975007 s
-Iteration: 4:	 time = 1.975993 s
-Iteration: 5:	 time = 1.981000 s
-Iteration: 6:	 time = 1.975253 s
-Iteration: 7:	 time = 1.981447 s
-Iteration: 8:	 time = 1.975008 s
-Iteration: 9:	 time = 1.974486 s
-Iteration: 10:	 time = 1.977304 s
-Iteration: 11:	 time = 1.975008 s
-Iteration: 12:	 time = 1.976991 s
-Iteration: 13:	 time = 1.977009 s
-Iteration: 14:	 time = 1.975040 s
-Iteration: 15:	 time = 1.977993 s
-Iteration: 16:	 time = 1.975007 s
-Iteration: 17:	 time = 1.975991 s
-Iteration: 18:	 time = 1.977009 s
-Iteration: 19:	 time = 1.974000 s
-Iteration: 20:	 time = 1.975007 s
-
-Approximation of pi using 1000000000 number of terms: 3.141592652587902
-Average Time taken: 1.977335 seconds
----------------------------------------------------------
-
+Iteration 1: Pi = 3.141592652587899, Time = 2.014000
+Iteration 2: Pi = 3.141592652587899, Time = 2.031000
+Iteration 3: Pi = 3.141592652587899, Time = 1.977000
+Iteration 4: Pi = 3.141592652587899, Time = 1.976000
+Iteration 5: Pi = 3.141592652587899, Time = 1.976000
+Iteration 6: Pi = 3.141592652587899, Time = 1.977000
+Iteration 7: Pi = 3.141592652587899, Time = 1.975000
+Iteration 8: Pi = 3.141592652587899, Time = 1.980000
+Iteration 9: Pi = 3.141592652587899, Time = 1.978000
+Iteration 10: Pi = 3.141592652587899, Time = 1.975000
+Iteration 11: Pi = 3.141592652587899, Time = 1.976000
+Iteration 12: Pi = 3.141592652587899, Time = 1.976000
+Iteration 13: Pi = 3.141592652587899, Time = 1.976000
+Iteration 14: Pi = 3.141592652587899, Time = 1.976000
+Iteration 15: Pi = 3.141592652587899, Time = 1.974000
+Iteration 16: Pi = 3.141592652587899, Time = 1.976000
+Iteration 17: Pi = 3.141592652587899, Time = 1.973000
+Iteration 18: Pi = 3.141592652587899, Time = 1.974000
+Iteration 19: Pi = 3.141592652587899, Time = 1.974000
+Iteration 20: Pi = 3.141592652587899, Time = 1.975000
+Average time elapsed for 20 iterations: 1.980450 seconds
